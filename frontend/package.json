@@ -1,0 +1,37 @@
+{
+  "name": "audio-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@hookform/resolvers": "^3.3.4",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/material-nextjs": "latest",
+    "@react-oauth/google": "^0.12.1",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.5.1",
+    "localforage": "^1.10.0",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-redux": "^8.1.3",
+    "redux-persist": "^6.0.0",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "5.3.3"
+  }
+}
